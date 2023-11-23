@@ -5,17 +5,23 @@
 
 body {
     background-color: #3A3939;
+    width: 100vw;
 }
+
 header {
     height: 70vh;
 }
+
+
 #fundo {
     background-color: antiquewhite;
     height: 200px;
     width: 100%;
     background-image: url("../images/fundo.png");
+    background-position: center;
     background-position-y: -150px;
 }
+
 #fundo-img {
     background-color: #3A3939;
     width: 100%;
@@ -23,9 +29,10 @@ header {
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    
+
 }
-#fundo-img h1 img{
+
+#fundo-img h1 img {
     width: 300px;
     margin-top: -40%;
 }
@@ -36,6 +43,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .btn {
@@ -48,6 +56,7 @@ header {
     font-weight: bold;
     cursor: pointer;
 }
+
 .btn:hover {
     background-color: #1d321c;
 }
@@ -62,4 +71,16 @@ header {
 footer {
     padding: 2rem;
     text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        height:400px;
+        width: 100%;
+    }
+    #fundo-img h1 img {
+        width: 200px;
+        margin-top: -40%;
+    }
 }
