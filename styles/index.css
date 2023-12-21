@@ -67,7 +67,6 @@ header {
 }
 
 #quilometragem {
-    background-color: #5f815d;
     padding: 1rem 1rem;
     width: 15rem;
     border-radius: 5px;
@@ -76,7 +75,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #e3e3e3;
+    color: #3A5438;
     font-size: 30px;
     font-weight: bolder;
 }
