@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Teko:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Noto Color Emoji', sans-serif;
+    font-family: 'Teko', sans-serif;
 }
 
 body {
     background-color: #3A3939;
-    width: 100vw;
+    max-width: 100vw;
 }
 
 header {
-    height: 70vh;
+    height: 50vh;
 }
 
 
@@ -53,12 +57,28 @@ header {
     border: none;
     border-radius: 5px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
     cursor: pointer;
+    letter-spacing: 2px;
 }
 
 .btn:hover {
     background-color: #1d321c;
+}
+
+#quilometragem {
+    background-color: #5f815d;
+    padding: 1rem 1rem;
+    width: 15rem;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e3e3e3;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 #youtube {
@@ -76,9 +96,10 @@ footer {
 @media only screen and (max-width: 768px) {
 
     header {
-        height:400px;
+        height: 400px;
         width: 100%;
     }
+
     #fundo-img h1 img {
         width: 200px;
         margin-top: -40%;
